@@ -1,0 +1,171 @@
+/* variables */
+:root{
+    --body-bg: #d9dcd6; 
+    --head-bg: #2a607c;
+    --box-bg: #0072bb;
+    --contrast-color: #ffffff;    
+}
+
+/* global */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+/* style to body of html */
+
+
+body {
+    background-color: var(--body-bg);
+}
+
+/* hero styling */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* header styling */
+.header {
+    padding: 20px;
+    background-color: var(--head-bg);
+    color: var(--contrast-color);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: var(--body-bg);
+}
+
+.header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header section ul {
+    list-style-type: none;
+}
+
+.header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* style of href and paragraphs */
+a {
+    color: var(--contrast-color);
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* center card style */
+
+.card-image {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+}
+.content {
+
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    background-color: var(--head-bg-bg);
+    border: 20px;
+    border-color: var(--body-bg);
+   
+}
+
+.content figure {
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+ 
+}
+
+.card-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: var(--head-bg);
+    color: var(--contrast-color);
+
+}
+
+.card-image img {
+    max-height: 200px;
+}
+
+.card-content h2 { 
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/* floats */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+
+/* side card style */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
+
+.benefit-img { 
+    margin-bottom: 32px;
+    color: var(--contrast-color);
+}
+.benefit-img h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.benefit-img img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* footer style */
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
